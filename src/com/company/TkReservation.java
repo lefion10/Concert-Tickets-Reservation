@@ -17,7 +17,6 @@ public class TkReservation extends Thread{
         this.tktype = tktype ;
     }
 
-    @java.lang.Override
     public void run() {
         tkcount.reserveTicket(firstName,lastName,seatsNumber,tktype);
     }
